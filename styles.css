@@ -1,14 +1,9 @@
 body{
 	background-image: url(img/background.jpg);
 	background-size: cover;
-	width: 1918px;
-	height: 1050px;
 }
 
-.container{
-	width: 1140px;
-	/*height: 1053px;*/
-}
+
 
 @font-face{
 	font-family: Evogria; 
@@ -35,7 +30,6 @@ h1{
 	font-size: 48px;
 	margin-top: 2em;
 	font-weight: 400;
-	text-align: right;
 }
 
 h2{
@@ -50,7 +44,7 @@ h2{
 .doska{
 	width: 1147px;
 	height: 117px;
-	margin-left: -2.5em;
+	margin-left: -2em;
 	margin-top: -8.6em;
 	position: absolute;
 	z-index:100;
@@ -333,3 +327,24 @@ hr {
 }
 
 
+@media (max-width: 767px) {
+    h1{
+    	margin-left: 1.3em;
+    }
+
+    .pineapple.col-lg-3,
+    .berries.col-lg-3,
+    .grapefruit.col-lg-3,
+    .apple.col-lg-3{
+    	margin-top: 3em;
+    	margin-left: .5em;
+    }
+
+		.pin,
+		.ber,
+		.grap,
+		.app{
+			
+			height: 250px;
+		}
+}
