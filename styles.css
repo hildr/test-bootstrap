@@ -347,4 +347,21 @@ hr {
 			
 			height: 250px;
 		}
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 1024px) {
+    h1{
+    	margin-left: 1.7em;
+    }
+
+     .pineapple.col-lg-3,
+    .berries.col-lg-3,
+    .grapefruit.col-lg-3,
+    .apple.col-lg-3{
+    	margin-left: 1.7em;
+    }
+
+>>>>>>> refs/remotes/origin/master
 }
